@@ -72,15 +72,19 @@ Iris Test Prediction Accuracy
 Figure 3
 Cancer Test Prediction Accuracy
 
-    Figure 2 shows the mean accuracy of the clustering for each number of clusters. The accuracy starts low when there is only one cluster. This quickly increases to where it maxes out at around seven through ten clusters. From there, the mean accuracy slowly decreases, indicating that the training data is overfit.A model overfits the training data when it models the training data too closely and is unable to generalize well to new data. The black lines above the bars represent 1.96 standard errors above and below the mean. They are much wider at a low and high number of clusters indicating a larger amount of variance in the accuracy. This further proves that very small numbers of clusters (up to around seven) are not very good fits for the  data. The same is true for increasingly large numbers of clusters.
+    Figure 2 shows the mean accuracy of the clustering for each number of clusters. The accuracy starts low when there is only one cluster. This quickly increases to where 
+it maxes out at around seven through ten clusters. From there, the mean accuracy slowly decreases, indicating that the training data is overfit.A model overfits the training 
+data when it models the training data too closely and is unable to generalize well to new data. The black lines above the bars represent 1.96 standard errors above and below 
+the mean. They are much wider at a low and high number of clusters indicating a larger amount of variance in the accuracy. This further proves that very small numbers of 
+clusters (up to around seven) are not very good fits for the  data. The same is true for increasingly large numbers of clusters.
     Figure 3 shows the mean accuracy using the cancer dataset. There is a marked decrease 
 in mean accuracy compared to the Iris dataset. Nonetheless, the model still peaks at around ten 
 clusters. There does not seem to be much variation in standard errors in this graph, but they do 
 appear to be larger than in Figure 2. This indicates greater variation in the accuracy of cancer 
 prediction.
     K-means clustering can be seen to very accurately model data that is clearly grouped as 
-in Figure 2. The cancer dataset does not have clear groups between classes. This is likely why Kmeans clustering is unable to accurately model the data. While both datasets were modeled 
-better at smaller numbers of clusters, I do not expect this to be the rule. Instead, I expect the 
+in Figure 2. The cancer dataset does not have clear groups between classes. This is likely why Kmeans clustering is unable to accurately model the data. While both datasets 
+were modeled better at smaller numbers of clusters, I do not expect this to be the rule. Instead, I expect the 
 number of clusters necessary to best model the data would increase as the number of classes 
 increases.
     To conclude, K-means clustering is very good at finding meaning from unclassified data 
