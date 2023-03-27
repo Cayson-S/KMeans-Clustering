@@ -33,7 +33,7 @@ membership and find that there is no change. Thus, the algorithm has converged</
 
 <br></br>
 
-Figure 1
+<b>Figure 1</b>
 
 K-Means Clustering Example
 
@@ -75,7 +75,7 @@ standard errors were graphed in Figure 2 and Figure 3.</p>
 
 <br></br>
 
-Figure 2
+<b>Figure 2</b>
 
 Iris Test Prediction Accuracy
 
@@ -83,7 +83,7 @@ Iris Test Prediction Accuracy
 
 <br></br>
 
-Figure 3
+<b>Figure 3</b>
 
 Cancer Test Prediction Accuracy
 
