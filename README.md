@@ -1,4 +1,4 @@
-KMeans Clustering Project Report
+K-Means Clustering Project Report
 ==============================
 
 <p>&emsp;This project uses the K-means clustering algorithm to classify data. K-means clustering is 
