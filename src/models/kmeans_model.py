@@ -3,12 +3,10 @@
 
 # Created by Cayson Seipel
 # November 23, 2022
-# OLA 4
 # This project builds the K-means clustering algorithm. It takes in three arguments: the number of clusters, 
 # a training set, and a testing set. The program performs K-means clustering and then
 # assigns a class label to each cluster. Finally, the program validates the clusters on the test set.
 # The number of correct predictions is output.
-# Some code is modified from code given by Dr. Phillips for use in this assignment.
 
 import sys, math
 import numpy as np
