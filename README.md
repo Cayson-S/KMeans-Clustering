@@ -1,3 +1,7 @@
+Project Details
+==============================
+The model can be found under ./src/models/kmeans_model.py.
+
 K-Means Clustering Project Report
 ==============================
 
